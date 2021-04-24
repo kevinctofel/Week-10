@@ -14,7 +14,8 @@ SET todo = ‘newTextOfTodo’
 WHERE id = idOfTodo;
 
 UPDATE listoftodos 
-SET isCompleted = true;
+SET isCompleted = true
+WHERE id = idOfTodo;
 
 INSERT INTO listoftodos
 (id, todo, isCompleted)
